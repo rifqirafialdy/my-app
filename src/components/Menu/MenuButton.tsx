@@ -17,7 +17,7 @@ const MenuButton: FC<MenuButtonProps> = ({ onClick }) => {
             onMouseLeave={() => setIsHovered(false)}
         >
             <Image src="/wave.png" alt="Menu Icon" width={30} height={30} />
-            {isHovered && <p className="font-medium text-lg transition-all duration-300">Hi I'm Ayush</p>}
+            {isHovered && <p className="font-medium text-lg transition-all duration-300">Hi I&aposm Ayush</p>}
         </div>
     );
 };

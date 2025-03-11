@@ -7,11 +7,12 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Portofolio: FC = () => {
+    const [imgSrc, setImgSrc] = useState("/link.png");
+
     return (
         <div className="flex flex-col gap-5">
             {DUMMY_PROJECTS.map((project, index) => {
-                const [imgSrc, setImgSrc] = useState("/link.png");
-
+                
                 return (
                     <div
                         key={index}

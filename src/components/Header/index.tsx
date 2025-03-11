@@ -1,4 +1,3 @@
-// src/components/Header.tsx
 "use client";
 
 import { FC } from "react";

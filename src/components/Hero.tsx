@@ -1,16 +1,18 @@
-// src/components/Hero.tsx
 import { FC } from 'react';
 import { motion } from 'framer-motion';
 import Header from './Header';
+import Image from 'next/image';
 
 const Hero: FC = () => {
     return (
         <section className="relative bg-[#C7D0D9] w-full h-screen flex flex-col overflow-hidden">
             <Header/>
             <div className="absolute inset-0 flex justify-center items-center z-0">
-                <img
+                <Image
                     src="/My project 1 (1).png"
                     alt="Hero Image"
+                    width={500} 
+                    height={400} 
                     className="max-w-full object-contain"
                 />
                 <motion.div
